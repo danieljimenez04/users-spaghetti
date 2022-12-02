@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/app.js",
-    "dev": "echo \"Ups este comando no existe\" && exit 1"
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
     "pg": "^8.8.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.25.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
